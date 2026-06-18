@@ -201,30 +201,30 @@
 
     <!-- STICKY HEADER -->
     <header class="fixed top-0 left-0 right-0 z-50 glass-header transition-all duration-300 shadow-lg">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
+        <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 h-16 md:h-20 flex items-center justify-between">
             <!-- Logo -->
             <a href="#" class="flex items-center gap-1.5 sm:gap-3">
-                <div class="bg-gradient-to-tr from-waterBlue-600 to-waterTeal-400 p-1.5 sm:p-2.5 rounded-lg sm:rounded-xl shadow-lg shadow-waterBlue-500/20">
-                    <i class="fa-solid fa-droplet text-white text-base sm:text-2xl animate-bounce"></i>
+                <div class="bg-gradient-to-tr from-waterBlue-600 to-waterTeal-400 p-1.5 md:p-2.5 rounded-lg md:rounded-xl shadow-lg shadow-waterBlue-500/20">
+                    <i class="fa-solid fa-droplet text-white text-sm md:text-2xl animate-bounce"></i>
                 </div>
                 <div class="flex flex-col">
-                    <span class="text-sm sm:text-lg md:text-xl font-black text-white leading-tight">وايت مياه الرياض</span>
-                    <span class="hidden sm:inline text-[9px] md:text-xs font-semibold text-waterTeal-400 tracking-wider">تعبئة وتوصيل فوري - 6 طن</span>
+                    <span class="text-sm sm:text-lg md:text-xl font-black text-white leading-tight whitespace-nowrap">وايت مياه الرياض</span>
+                    <span class="hidden md:inline text-[10px] font-semibold text-waterTeal-400 tracking-wider">تعبئة وتوصيل فوري - 6 طن</span>
                 </div>
             </a>
 
             <!-- Header Action Buttons (Responsive) -->
-            <div class="flex items-center gap-1.5 sm:gap-2.5">
+            <div class="flex items-center gap-1.5 md:gap-2.5">
                 <!-- Call Action -->
-                <a href="tel:+966530460093" class="flex items-center gap-1.5 bg-gradient-to-r from-accentOrange-600 to-amber-500 text-white px-3 py-2 sm:px-4 sm:py-2.5 rounded-full font-bold shadow-md hover:from-accentOrange-500 hover:to-amber-400 transition-all duration-300 transform hover:scale-105 active:scale-95 text-xs sm:text-sm animate-pulse-orange">
+                <a href="tel:+966530460093" class="w-10 h-10 flex items-center justify-center rounded-full bg-gradient-to-r from-accentOrange-600 to-amber-500 text-white font-bold shadow-md hover:from-accentOrange-500 hover:to-amber-400 transition-all duration-300 transform hover:scale-105 active:scale-95 animate-pulse-orange min-[480px]:w-auto min-[480px]:h-auto min-[480px]:px-4 min-[480px]:py-2 text-xs sm:text-sm whitespace-nowrap gap-1.5">
                     <i class="fa-solid fa-phone-flip"></i>
-                    <span>اتصل الآن</span>
+                    <span class="hidden min-[480px]:inline">اتصل الآن</span>
                 </a>
                 
                 <!-- WhatsApp Action -->
-                <a href="https://wa.me/966530460093?text=السلام%20عليكم،%20أرغب%20في%20طلب%20وايت%20مياه%206%20طن%20لتعبئة%20الخزان" target="_blank" class="flex items-center gap-1.5 bg-green-600 text-white px-3 py-2 sm:px-4 sm:py-2.5 rounded-full font-bold shadow-md hover:bg-green-500 transition-all duration-300 transform hover:scale-105 active:scale-95 text-xs sm:text-sm">
-                    <i class="fa-brands fa-whatsapp"></i>
-                    <span>واتساب</span>
+                <a href="https://wa.me/966530460093?text=السلام%20عليكم،%20أرغب%20في%20طلب%20وايت%20مياه%206%20طن%20لتعبئة%20الخزان" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-green-600 text-white font-bold shadow-md hover:bg-green-500 transition-all duration-300 transform hover:scale-105 active:scale-95 min-[480px]:w-auto min-[480px]:h-auto min-[480px]:px-4 min-[480px]:py-2 text-xs sm:text-sm whitespace-nowrap gap-1.5">
+                    <i class="fa-brands fa-whatsapp text-base sm:text-lg"></i>
+                    <span class="hidden min-[480px]:inline">واتساب</span>
                 </a>
             </div>
         </div>
@@ -444,7 +444,7 @@
     </section>
 
     <!-- GEOGRAPHIC COVERAGE ZONES (Local SEO booster) -->
-    <section id="coverage" class="py-20 bg-slate-950 relative border-t border-slate-900">
+    <section id="coverage" class="py-20 bg-slate-950 relative border-t border-slate-900 overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             
             <div class="text-center mb-16">
@@ -457,7 +457,7 @@
             </div>
 
             <!-- Neighborhoods Grid -->
-            <div class="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            <div class="grid grid-cols-1 min-[375px]:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 max-w-5xl mx-auto">
                 <!-- Neighborhood Card -->
                 <div class="glass-card rounded-2xl p-5 border-l-4 border-l-waterTeal-400 hover:border-l-waterBlue-500 transition-all duration-300 hover:translate-x-[-5px] shadow-lg reveal-left">
                     <div class="flex items-center gap-4">
@@ -697,7 +697,7 @@
     </section>
 
     <!-- CUSTOMER TESTIMONIALS (Authentic local trust) -->
-    <section id="testimonials" class="py-20 bg-gradient-to-b from-slate-950 to-[#0b1528] relative border-t border-slate-900">
+    <section id="testimonials" class="py-20 bg-gradient-to-b from-slate-950 to-[#0b1528] relative border-t border-slate-900 overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <span class="text-waterTeal-400 text-xs sm:text-sm font-bold tracking-widest uppercase mb-2 block reveal">آراء العملاء</span>
@@ -927,22 +927,22 @@
     <a href="https://wa.me/966530460093?text=السلام%20عليكم،%20أرغب%20في%20طلب%20وايت%20مياه%206%20طن%20لتعبئة%20الخزان" target="_blank" class="fixed bottom-6 right-6 z-50 flex items-center justify-center bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full shadow-2xl transition-all duration-300 transform hover:scale-110 active:scale-95 animate-pulse-green group" aria-label="WhatsApp Chat">
         <i class="fa-brands fa-whatsapp text-3xl"></i>
         <!-- Tooltip -->
-        <span class="absolute right-18 bg-slate-900 border border-slate-800 text-white text-xs font-bold px-3 py-1.5 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap shadow-xl">اطلب وايت مياه الآن!</span>
+        <span class="absolute right-[4.5rem] bg-slate-900 border border-slate-800 text-white text-xs font-bold px-3 py-1.5 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap shadow-xl pointer-events-none hidden md:inline">اطلب وايت مياه الآن!</span>
     </a>
 
     <!-- LIGHTBOX MODAL FOR FLEET GALLERY -->
     <div id="lightbox" class="fixed inset-0 z-[100] hidden bg-slate-950/95 backdrop-blur-md flex-col items-center justify-center p-4">
         <!-- Close button -->
-        <button class="absolute top-6 right-6 text-white text-3xl hover:text-waterTeal-400 transition focus:outline-none" onclick="closeLightbox()"><i class="fa-solid fa-xmark"></i></button>
+        <button class="bg-slate-900/60 w-12 h-12 flex items-center justify-center rounded-full text-white text-2xl hover:text-waterTeal-400 hover:bg-slate-800 transition focus:outline-none absolute top-4 right-4 z-[110]" onclick="closeLightbox()"><i class="fa-solid fa-xmark"></i></button>
         <!-- Nav buttons -->
-        <button class="absolute left-6 text-white text-3xl hover:text-waterTeal-400 transition focus:outline-none" onclick="prevImage()"><i class="fa-solid fa-chevron-left"></i></button>
-        <button class="absolute right-6 text-white text-3xl hover:text-waterTeal-400 transition focus:outline-none" onclick="nextImage()"><i class="fa-solid fa-chevron-right"></i></button>
+        <button class="bg-slate-900/60 w-12 h-12 flex items-center justify-center rounded-full text-white text-2xl hover:text-waterTeal-400 hover:bg-slate-800 transition focus:outline-none absolute left-4 top-1/2 -translate-y-1/2 z-[110]" onclick="prevImage()"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="bg-slate-900/60 w-12 h-12 flex items-center justify-center rounded-full text-white text-2xl hover:text-waterTeal-400 hover:bg-slate-800 transition focus:outline-none absolute right-4 top-1/2 -translate-y-1/2 z-[110]" onclick="nextImage()"><i class="fa-solid fa-chevron-right"></i></button>
         
         <!-- Image display -->
         <div class="max-w-4xl max-h-[80vh] flex items-center justify-center">
             <img id="lightbox-img" src="" alt="شاحنة مياه تحلية بالرياض" class="max-w-full max-h-[80vh] rounded-2xl shadow-2xl border border-slate-800 object-contain">
         </div>
-        <p id="lightbox-caption" class="text-slate-400 text-sm mt-4 font-bold"></p>
+        <p id="lightbox-caption" class="text-slate-400 text-sm mt-4 font-bold text-center"></p>
     </div>
 
     <!-- VANILLA JAVASCRIPT FOR ACCORDION, INTERSECTION OBSERVER ANIMATIONS & LIGHTBOX -->
